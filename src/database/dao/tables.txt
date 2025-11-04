@@ -1,0 +1,6 @@
+domain (id, nom);
+typology(id_typology, nom, description)
+tytpology_attribute (id_typology[ -> Typology], id _attribute, nom, valeur, type)
+observation (id_observation, nom, description)
+observation_attribute (id_observation[ -> observation], id _attribute, nom, valeur, type)
+
